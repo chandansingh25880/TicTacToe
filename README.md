@@ -1,1 +1,1 @@
-echo # TicTacToe
+# TicTacToe
