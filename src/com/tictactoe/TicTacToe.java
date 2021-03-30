@@ -9,7 +9,7 @@ public class TicTacToe {
 		System.out.println("Welcome to TicTacToe");
 		initializeBoard();
 		chooseMove();
-
+       
 	}
 
 	public static void initializeBoard() {
@@ -37,10 +37,7 @@ public class TicTacToe {
 			} else
 				board[row - 1][col - 1] = Move.toUpperCase().toCharArray()[0];
 		} else {
-			System.out.println("Enter your valid move,either X or O");
+			System.out.println("Please Enter Valid Move O and X");
 		}
-			 
-		 
-	 }
  }
-
+}
