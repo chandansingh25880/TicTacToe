@@ -11,7 +11,6 @@ public class TicTacToe {
 		chooseMove();
 		displayBoard();
 		selectBoard();
-       
 	}
 
 	public static void initializeBoard() {
